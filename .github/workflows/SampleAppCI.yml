@@ -27,7 +27,7 @@ jobs:
         build_command: mvn clean install -DskipTests -Dparam=${{secrets.POLARIS_SERVER_URL}}
         log_level: INFO
         cache: true
-        github_token: ${{secrets.FIXPR_GH_TOKEN}}
+        github_token: ${{secrets.GITHUB_TOKEN}}
         #----------polaris param---------------#
         polaris: false
         polaris_url: ${{secrets.POLARIS_SERVER_URL}}

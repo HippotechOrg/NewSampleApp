@@ -52,10 +52,10 @@ analyze:
     all: true
     audit: true
     all-security: true
-  cov-analyze-args:
-    - --disable-spotbugs 
-    - --disable 
-    - SIGMA.hardcoded_secret
+#  cov-analyze-args:
+#    - --disable-spotbugs 
+#    - --disable 
+#    - SIGMA.hardcoded_secret
     # - --disable-sigma
   # Specifies which files to analyze when the "analyze.mode" setting is "hfi".
   # Analysis will be performed for only these files.
